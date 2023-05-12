@@ -37,7 +37,7 @@ namespace Cryptographer
                     return;
                 string filename = save.FileName;
                 File.WriteAllBytes(filename, x);
-                MessageBox.Show("Файл сохранен");
+                MessageBox.Show("Файл сохранен!");
                 GC.Collect();
             }
             catch (Exception ex)
@@ -60,7 +60,7 @@ namespace Cryptographer
                     return;
                 string filename = save.FileName;
                 File.WriteAllBytes(filename, y);
-                MessageBox.Show("Файл сохранен");
+                MessageBox.Show("Файл сохранен!");
                 GC.Collect();
             }
             catch (Exception ex)
